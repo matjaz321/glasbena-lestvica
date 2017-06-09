@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Glasbena lestvica</title>
-  <link rel="stylesheet" type="text/css" href="/css/login-style.css">
-  <script src="/js/jquery-3.2.1.min.js"></script>
-  <script src="/js/login-form.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/login-style.css">
+  <script src="../js/jquery-3.2.1.min.js"></script>
+  <script src="../js/login-form.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="with=device-with, initial-scale=1">
 </head>
