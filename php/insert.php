@@ -13,7 +13,7 @@
 	}
 
 	else if(isset($_POST['new_song'])){
-		$query = "INSERT INTO glasbe (naslov, dolzina, opis, st_ocene,izvajalec_id) VALUES ('".$_POST['title']."','".$_POST['length']."', '".$_POST['description']."', ' ','".$_POST['izvajalec']."')";
+		$query = "INSERT INTO glasbe (naslov, dolzina, opis, izvajalec_id, ocena_poz, ocena_neg) VALUES ('".$_POST['title']."','".$_POST['length']."', '".$_POST['description']."', '".$_POST['izvajalec']."', ' ', ' ')";
 		$result = mysqli_query($conn, $query);
 		
 		$glasba_id = "SELECT id FROM glasbe ORDER BY id DESC LIMIT 1";
